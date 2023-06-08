@@ -1,0 +1,83 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.bd-placeholder-img{
+  height: 512px;
+  width: 100%
+}
+
+.col-lg-4 svg{
+  float: left;
+  margin: 13px;
+  border: 0cap;
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 20% ;
+}
+
+.dogiphone{
+  height: 512px; 
+  display: flex;
+}
+
+h1{
+  color: black;
+  font-weight: bold;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.containerdog{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.containerprofile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.paragraph{
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.avatar11{
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.containerprice{
+  display: flex;
+  justify-content: space-between;
+}
+.containerprice div img{
+  height: 30px;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
